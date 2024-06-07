@@ -1,0 +1,20 @@
+.wrapper{
+    margin:30px;
+    width:100%;
+}
+.card-wrapper{
+    margin:40px 20px;
+    display:flex;
+    flex-wrap: wrap;
+    row-gap: 2em;
+    column-gap: 2em;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    font-size: 2em;
+    color: #52d652;
+    font-weight: 900;
+    font-family: sans-serif;
+}
