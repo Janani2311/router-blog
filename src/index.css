@@ -3,18 +3,41 @@
     width:100%;
 }
 .card-wrapper{
-    margin:40px 20px;
+    margin:40px 40px;
     display:flex;
     flex-wrap: wrap;
+    flex-flow:row wrap;
     row-gap: 2em;
     column-gap: 2em;
     align-items: center;
     justify-content: center;
 }
 
+.card-wrap {
+    flex: 0 0 33.333%;
+    display: flex;
+    padding: 10px; /* gutter width */
+  }
+
 .logo{
     font-size: 2em;
-    color: #52d652;
+    color: #52d652 !important;
     font-weight: 900;
     font-family: sans-serif;
+}
+
+.card-img{
+    height:200px;
+    width:200px;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-title{
+    text-transform: capitalize;
+    font-size: 1em;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
 }
